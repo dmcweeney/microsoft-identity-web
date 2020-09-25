@@ -33,7 +33,7 @@ namespace Microsoft.Identity.Web.Perf.Client
             _configuration = configuration;
             _usersToSimulate = int.Parse(configuration["UsersToSimulate"]);
             _userAccountIdentifiers = new string[_usersToSimulate + 1];
-            
+
         }
 
         public async Task Run()
